@@ -4,7 +4,7 @@ begin
   puts "================================================"
 
   begin
-    puts "Your choose: R)rock P)paper S)scissors ?"
+    puts "You choose: R)rock P)paper S)scissors ?"
     player_input = gets.chomp.upcase 
   end while !["R" , "P" , "S"].include?(player_input)
 	
